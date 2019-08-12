@@ -13,7 +13,7 @@ class GetAccessToken(object):
 
         Usage:
             from accesstoken import AccessToken
-            getToken = AccessToken()
+            getToken = GetAccessToken()
             accessToken = getToken.getAccessToken()
             requests.get(url, headers= accessToken)
     """
